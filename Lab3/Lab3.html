@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <fieldset id="fieldset">
+        <legend id="s_info">Student Information</legend>
+        <table>
+            <tr>
+                <td><label>Full Name(Text)</label></td>
+                <td><label class="left">Email Address</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="name" name="name" placeholder="Enter your full name"></td>
+                <td><input type="email" id="email" class="left" name="email" placeholder="your email@example.com"></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td><label class="left">Age(Number)</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="password" name="password" placeholder="Enter secure password"></td>
+                <td><input type="number" id="age" class="left" name="age" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><label>Experiment Date</label></td>
+                <td><label class="left">Phone Number(Tel)</label></td>
+            </tr>
+            <tr>
+                <td><input type="date" id="date" name="date" placeholder="mm/dd/yyyy"></td>
+                <td><input type="number" id="phone" class="left" name="phone" placeholder="+880 xxxx xxxxxx"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <div>
+    <button type="submit" id="submit">SUBMIT</button>
+    <button type="reset" id="clear">CLEAR</button>
+    </div>
+</body>
+</html>
